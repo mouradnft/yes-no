@@ -9,6 +9,7 @@
   <style>
     body  {
       background-color: #865DFF;
+      
     }
 		img {
       position: relative;
@@ -23,17 +24,23 @@
       text-align: center;
     }
     button {
-      margin: auto;
+      
+      margin: 2rem;
+      height: 5rem;
+      width: 20rem;
+    }
+    .container {
+      text-align: center;
     }
 	</style>
 </head>
-<body>
+<body class="container">
   <h1>can we hang out sometime ? </h1>
   <h1 class="plies">pliiiiiies</h2>
 	<img src="https://media2.giphy.com/media/YZOsKxJfmvzG0/giphy.gif?cid=ecf05e47zwyv2hwyoar1a7qkzlb4f8xkeeqv6oj55jqy3a6t&rid=giphy.gif&ct=g" alt="Your image">
   
-	<button class="btn btn-danger btn-lg" id="yes-btn">Yes Baby !</button>
-	<button class="btn btn-danger btn-lg" id="no-btn">Nooooo!</button>
+	<button class="btn btn-danger btn-lg " id="yes-btn">Yes Baby !</button>
+	<button class="btn btn-danger btn-lg " id="no-btn">Nooooo!</button>
 	<script>
 		var noBtn = document.getElementById("no-btn");
 		noBtn.addEventListener("click", function() {
